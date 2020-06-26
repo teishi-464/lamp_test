@@ -1,7 +1,7 @@
 <?php
-    $dsn = 'mysql:dbname=test_DB;host=localhost;';
+    $dsn = 'mysql:dbname=test_db;host=localhost;';
     $user = 'koizumi';
-    $password = 'Paitan45tenTei@*';
+    $password = 'syutyu4647';
     try {
         $dbh = new PDO($dsn, $user, $password);
         $sql = "select * from sample;";
@@ -71,7 +71,7 @@
                                 <td><?php echo "$value[name]"; ?></td>
                                 <td><?php echo "$value[age]"; ?></td>
                             </tr>
-                        <?php} ?>
+                        <?php } ?>
                     </tbody>
                 </table>
             </div>
