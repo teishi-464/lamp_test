@@ -4,7 +4,7 @@
     $password = 'syutyu4647';
     try {
         $dbh = new PDO($dsn, $user, $password);
-        $sql = "select * from sample;";
+        $sql = "select * from user;";
         $result = $dbh->query($sql);
     } catch (PDOException $e) {
         print "Failed: " . $e->getMessage() . "\n";
