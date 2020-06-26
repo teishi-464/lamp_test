@@ -76,7 +76,7 @@
                 </table>
             </div>
             <div class="tab-pane" id="insert">
-                <form action="./insert.php" method="post">
+                <form class="mt-3" action="./insert.php" method="post">
                     <div class="form-group row">
                         <label for="id" class="col-sm-2 col-form-label">ID</label>
                         <div class="col-sm-10">
@@ -96,9 +96,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <div class="col-sm-10">
                             <button type="submit" class="btn btn-primary">Insert</button>
-                        </div>
                     </div>
                 </form>
             </div>
