@@ -76,7 +76,31 @@
                 </table>
             </div>
             <div class="tab-pane" id="insert">
-                <p>sample tab 2</p>
+                <form action="./insert.php" method="post">
+                    <div class="form-group row">
+                        <label for="id" class="col-sm-2 col-form-label">ID</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="id" name="id">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="name" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="age" class="col-sm-2 col-form-label">Age</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="age" name="age">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Insert</button>
+                        </div>
+                    </div>
+                </form>
             </div>
             <div class="tab-pane" id="update">
                 <p>sample tab 3</p>
