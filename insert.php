@@ -21,4 +21,4 @@
         header('Location: index.php?fg=2?err='.$e->getMessage());
         exit();
     }
-    ?>
+?>

@@ -12,7 +12,7 @@
 
         $sql = "update user set name=:name ,age=:age where id =:id";
         $stmt = $dbh->prepare($sql);
-        $prams = array(':id'=> $id, ':name'=> $name, ':age' => $age,);
+        $prams = array(':id'=> $id, ':name'=> $name, ':age'=> $age,);
         $stmt->execute($prams);
 
         header('Location: index.php?fg=1')
