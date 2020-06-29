@@ -12,7 +12,7 @@
         $name = $_POST['name'];
         $age = $_POST['age'];
     
-        $sql = "delete from user where =:id)";
+        $sql = "delete from user where =:id";
         $stmt = $dbh->prepare($sql);
         $prams = array(':id'=> $id);
         $stmt->execute($prams);

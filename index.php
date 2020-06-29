@@ -126,7 +126,7 @@
                     </div>
                 </form>
             </div>
-            <div class="tab-pane active" id="delete">
+            <div class="tab-pane" id="delete">
                 <table class="table table-striped mt-3">
                     <caption>Show User Table</caption>
                     <thead class="thead-dark">
@@ -146,7 +146,7 @@
                                 <td>
                                     <form action="./delete.php" method="get">
                                         <input class="d-none" type="text" name="id" value="<?php echo "$value[id]"; ?>">
-                                        <button class="btn btn-denger" type="submit">delete</button>
+                                        <button class="btn btn-danger" type="submit">delete</button>
                                     </form>
                                 </td>
                             </tr>
