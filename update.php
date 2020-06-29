@@ -15,7 +15,7 @@
         $prams = array(':id'=> $id, ':name'=> $name, ':age'=> $age,);
         $stmt->execute($prams);
 
-        header('Location: index.php?fg=1')
+        header('Location: index.php?fg=1');
 
     } catch (PDOException $e) {
         header('Location: index.php?fg=2?err='.$e->getMessage());
