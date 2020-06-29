@@ -6,7 +6,7 @@
         $dbh = new PDO($dsn, $user, $password);
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $id = $_GET['id']
+        $id = $_GET['id'];
     
         $id = $_POST['id'];
         $name = $_POST['name'];
